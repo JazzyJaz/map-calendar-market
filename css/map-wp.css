@@ -1,0 +1,215 @@
+body{
+	font-family:Arial;
+	background:white;
+	margin:0px;
+	padding:0px;
+	min-height:100vh;
+}
+#map-container{
+	position:relative;
+	width:100%;
+	margin:0;
+	background:#FFFFFF;
+	padding: 0 0 1.5em 0;
+}
+
+#map-container h3{
+	margin-top: 0;
+    font-size: 1.625em;
+    font-weight: 400;
+    font-family: Montserrat;
+    line-height: 2.143em;
+    margin-bottom: 1em;
+}
+#map-container #map{
+	float: left;
+    width: calc(100% - 450px);
+    height: 500px;
+        margin: 0 25px;
+}
+.ui-datepicker-inline{
+	width:100%;
+	    min-height: 210px;
+	padding:0;
+	margin:0 25px 0 0;
+}
+#date-col{
+	float:left;
+	width:200px;
+	padding:0;
+	margin: 0;
+}
+
+#selected-market{
+    
+}
+#selected-market-container{
+	float: left;
+    width: 200px;
+    padding: 0;
+    margin:0;
+}
+h4{
+	margin:0 0 20px 0;
+	padding:0;
+	color:#772241;
+	font-size:1.3em;
+}#selected-market-container h4{
+	text-align:right;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active{
+	background-color:#721a2f;
+	border: 1px solid grey;
+}
+.ui-datepicker .ui-datepicker-next:hover, .ui-datepicker .ui-datepicker-prev:hover{
+	background-color:#721a2f;
+	border: none;
+}
+
+.ui-datepicker-calendar thead th{
+	background-color:#f5f1e6;
+	color:#721a2f;
+	padding:0.5em 0.3em;
+	border-bottom:0.5em solid #c4a6bc;
+}
+.ui-widget-header{
+	background-color:#721a2f;
+	color:white;
+	border: 1px solid grey;
+}
+.ui-datepicker-week-end{
+	background-color:#c4a6bc;
+}
+.ui-widget-content{
+	background-color:#c4a6bc;
+}
+#selected-market h2:last-of-type{
+	display:block;
+}
+
+.alert{
+	display:none;
+	background-color:Crimson;
+	color:white;
+	font-size:18px;
+	border-radius:5px;
+	padding:5px;
+	text-align:center;
+}
+.info{
+	display:none;
+	background-color:#f5f1e6;
+	color:#772241;
+	font-size:14px;
+	border-radius:5px;
+	padding:5px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.info date,  .info adress{
+	display:none;
+}
+#valider-date a{
+	border: 2px solid #772241;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    color: #772241;
+    margin: 20px 0 0 0;
+    padding: 14px 10px;
+    border-radius: 5px;
+    border-radius: 2em;
+    text-decoration: none;
+}
+#valider-date a:hover{
+	color:white;
+	background-color:#772241;
+}
+h2{
+	font-size: 13px;
+    line-height: 13px;
+    text-align: right;
+	cursor: pointer;
+	border-right: 5px solid #c4a6bc;
+	padding:10px;
+	margin: 0 0 5px 0;
+	color:#c4a6bc;
+	border-radius: 10px 0 0 10px;
+} h2:hover{
+	background-color:#772241;
+}
+ #selected-market date,  #selected-market adress {
+ 	 font-size: 12px;
+ 	 line-height:15px;
+} 
+
+
+#valider-date, #datepicker{
+	display:none;
+}
+
+#valider-date h2, .gm-style h2 {
+    font-size: 14px;
+    border:none;
+    cursor:text;
+    color:#772241;
+    text-align:center;
+    margin:0;
+    padding:5px;
+}
+#valider-date h2:hover, .gm-style h2:hover {
+	background-color:transparent;
+	color:#772241;
+}
+.gm-style h2{ 
+	 font-size: 16px;
+    margin: 40px 0 10px 0;
+    padding: 10px;
+
+}
+
+
+.content_wrap{
+	width:90% !important;
+}
+
+
+
+
+.market_bloc{
+	margin: 0 0 15px 0;
+}
+.market_bloc:last-of-type{
+	margin: 0;
+}
+date, adress {
+	display:none;
+}
+
+#valider-date{
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+#valider-date p, #valider-date a {
+}
+#valider-date a {
+	float: right;
+    padding: 15px 60px;
+    margin-top: 10px;
+}
+
+
+form.checkout{
+	padding-top:20px;
+	display:none;
+	height:0;
+}
+
+
+.ui-datepicker td span, .ui-datepicker td a{
+	padding:0;
+}
+a, .scheme_dark a, .scheme_light a{
+	font-size:1em;
+}

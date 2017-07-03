@@ -1,0 +1,40 @@
+
+    <link rel="stylesheet" href="css/jquery-ui-1.12.1.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/map-wp.css" type="text/css" /> 
+
+    <div id="map-container">
+        <h1>Choisir le lieu et la date de livraision</h1>
+
+        <div id="livraison container">
+            <div id="date-col">
+                <h4>Voir la date de livraison pour voir les marchés disponibles</h4>
+                <div id="datepicker"></div>
+            </div>
+    
+            <div id="map">
+                <p>Veuillez patienter pendant le chargement de la carte...</p>
+            </div>
+            <div id="selected-market-container">
+                <h4>Choisir le lieu de livraison</h4>
+                <div id="selected-market"></div>
+            </div>
+        </div>
+    </div>
+
+
+<div style="clear:both"></div>
+
+     <div id="valider-date">
+            <p class="info"></p>
+            <p class="alert"></p>
+            <a href="#customer_details">Valider</a>
+      </div>
+
+<div style="clear:both"></div>
+
+    
+    <!-- Include Javascript -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.12.1.min.js"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&language=fr"></script>
+    <script type="text/javascript" src="js/map-wp.js"></script>
